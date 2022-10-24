@@ -1,0 +1,72 @@
+body{
+    font-size: 1.5rem;
+}
+
+.wrapper{
+text-align: center;
+align-items: center;
+height: inherit;
+background-color: beige;
+}
+
+.block{
+    padding-top: 25px;
+}
+
+.block div{
+    padding-top: 25px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    height: 10vh;
+    font-size: 2rem;
+}
+
+.form{
+    margin-bottom: 15px;
+    height: 4vh;
+}
+
+.form input{
+    font-size: 1.3rem;
+}
+
+.checkbox{
+    padding: 0 1rem;
+}
+
+.navbar a{
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.new-blog-a{
+    padding: 5px;
+    padding-top: 1px;
+    text-decoration: none;
+    font-size: 2rem;
+    border: 2px solid black;
+}
+
+.new-blog-a:visited{
+    color: black;
+}
+
+.about-ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.about-ul li a{
+    text-decoration: none;
+    color: rgb(42, 5, 5)
+}
+
+.about-ul li a:visited{
+    color: rgb(83, 11, 11);
+}
